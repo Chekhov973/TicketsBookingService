@@ -1,0 +1,7 @@
+﻿services:
+  ticketsbookingservice:
+    image: ticketsbookingservice
+    build:
+      context: .
+      dockerfile: Dockerfile
+
